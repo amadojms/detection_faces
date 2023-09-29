@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
-    # return "Hello montreal"
+    # return render_template('index.html')
+    return "Hello montreal"
 
 
 def gen(video_camera):
