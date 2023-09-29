@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Amado eres chingon!"
+    return render_template("index.html")
 
